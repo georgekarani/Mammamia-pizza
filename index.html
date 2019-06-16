@@ -8,41 +8,82 @@
  <link rel="shortcut icon" href="./assets/pizza1.jpeg">
 </head>
 
-<!----------------------------- DELANI STUDIO------------------------>
+<!----------------------------- Pizza------------------------>
 <body>
- <!----------------------------- Home PAGE=YELLOw ON LOAD------------------------ -->
-  <div id="top"></div>
-  <header id="head" class="container-fluid beforeLoad">
-    <div>
-      <img src="./assets/logo/" alt="" lazyload="on" class="lazy">
-      <h1>Mamma mia!<br>DELECIOUS'</h1>
-      <p>Caprichos de pizza – Cravings for Pizza</p>
-    </div>
+   <h1>...ORDER!!!PIZZA!!!</h1>
+    <order>
+      <div class="row flex-container">
+          <div class="column">
+             <h3>Size:</h3> 
+             <input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+             <input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br> 
+             <input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza<br> 
+             <input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br> 
+        </div>
 
-    <!----------------------opening ------- ABOUT US-------------------->
-    <div>
-      <a href="#aboutUs"><img src="./assets/mouse_click.png" class="mouse " alt="Mouse">Order<br>Now!!</a>
-    </div>
-  </header>
+        <div class="column"> 
+          <h3>Meats:</h3> 
+          <input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br> 
+          <input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br> 
+          <input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+          <input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br> 
+          <input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br> 
+          <input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br> 
+        </div>
 
-  <!-- ----------------------ABOUT US-------------------------- -->
-  <section id="aboutUs" class="container">
-    <div>
-      <h3>MAKE AN ORDER</h3>
-     
-    <!-- --------------------------------SOCIAL MEDIA---------------------------- -->
-    <footer>
-      <a href=""><img data-src="./assets/social_icons/you_tube.png" alt="" lazyload="on" class="lazy"></a>
-      <a href=""><img data-src="./assets/social_icons/twitter.png" alt="" lazyload="on" class="lazy"></a>
-      <a href=""><img data-src="./assets/social_icons/dribble.png" alt="" lazyload="on" class="lazy" ></a>
-      <a href=""><img data-src="./assets/social_icons/facebook.png" alt="" lazyload="on" class="lazy"></a>
-      <a href=""><img data-src="./assets/social_icons/g_plus.png" alt="" lazyload="on" class="lazy" ></a>
-      <a href=""><img data-src="./assets/social_icons/skype.png" alt="" lazyload="on" class="lazy" ></a>
-      <a href=""><img data-src="./assets/social_icons/stumble_upon.png" alt="" lazyload="on"></a>
-      <a href=""><img data-src="./assets/social_icons/behance.png" alt="" lazyload="on" class="lazy"></a>
-      <a href=""><img data-src="./assets/social_icons/pinterest.png" alt="" lazyload="on" class="lazy"></a>
-      <p>DELANI STUDIO <br>JUNE 8,2019</p>
-    </footer>
+         <div class="column ">
+             <h3>Cheese Selection:</h3> 
+             <input class="cheese" type="radio" name="Cheese" value="Regular Cheese" checked> Regular<br>
+             <input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br> 
+             <input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br> 
+        </div>
+    </div>
+    <div class="row flex-container">
+         <div class="column">
+             <h3>Crust Options:</h3> 
+             <input class="crust" type="radio" name="Crust" value="Plain Crust" checked> Plain Crust<br>
+             <input class="crust" type="radio" name="Crust" value="Butter Crust"> Butter Crust<br> 
+             <input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br> 
+             <input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+             <input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br> 
+        </div>
+
+         <div class="column">
+             <h3>Sauce:</h3> 
+             <input class="sauce" type="radio" name="Sauce" value="Marinara Sauce" checked> Marinara Sauce<br>
+             <input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br> 
+             <input class="sauce" type="radio" name="Sauce" value="BBQ Sauce"> BBQ Sauce<br> 
+             <input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br> 
+        </div>
+
+          <div class="column"> 
+          <h3>Veggies:</h3> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Onions"> Onions<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Olives"> Olives<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Pineapple"> Pineapple<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Spinach"> Spinach<br> 
+          <input class="veggie" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno<br> 
+        </div>
+    </div>
+ </order>
+<div class="row flex-container">
+  <div class="row">
+  </div>
+  <div class="row">
+<center><input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order"></center>
+  <div id="cart"> 
+    <div id="showText"></div> 
+    <div id="totalPrice"></div> 
+  </div>
+</div>
+<div class="row">
+</div>
+
+ 
+
 
 <!-----------add jquery links to bottom of body for page to load------>
     <script src="./js/jquery-3.4.0.min.js"></script>
