@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>PIZZA ORDER</title>
+ <link rel="stylesheet" href="./css/bootstrap.min.css">
+ <link rel="stylesheet" href="./css/bootstrap.css">
+ <link rel="stylesheet" href="./css/styles.css">
+ <link rel="shortcut icon" href="./assets/pizza1.jpeg">
+</head>
+
+<!----------------------------- DELANI STUDIO------------------------>
+<body>
+ <!----------------------------- Home PAGE=YELLOw ON LOAD------------------------ -->
+  <div id="top"></div>
+  <header id="head" class="container-fluid beforeLoad">
+    <div>
+      <img src="./assets/logo/" alt="" lazyload="on" class="lazy">
+      <h1>Mamma mia!<br>DELECIOUS'</h1>
+      <p>Caprichos de pizza – Cravings for Pizza</p>
+    </div>
+
+    <!----------------------opening ------- ABOUT US-------------------->
+    <div>
+      <a href="#aboutUs"><img src="./assets/mouse_click.png" class="mouse " alt="Mouse">Order<br>Now!!</a>
+    </div>
+  </header>
+
+  <!-- ----------------------ABOUT US-------------------------- -->
+  <section id="aboutUs" class="container">
+    <div>
+      <h3>ABOUT US</h3>
+      <p><br>When you work with us, you are part of commited collaborators. All aspects of our software development
+        process are intergrated,interactive and agile.<br><br>Our approach unifies design, development and product
+        management to create exceptional products.<br>We start each project by understanding your business goals,
+        the user's needs and the products requirements.<br>Then we will help translate them into effective and elegant solutions</p>
+      </div>
+      <!-- -----------------------SERVICES ------------------------>
+    </section>
+    <section id="services">
+      <div></div>
+      <h3>SERVICES</h3>
+      <p>Before we contract or write a line of code our team spends the necessary time needed to understand your product
+        vision. <br>The outcome of this scoping assesion is proposal or high level statement of work <br>Based on your
+      requirements, we can provide a complete offering or just the places you need</p>
+    </section>
+
+    <!-----------------WHAT WE DO WITH-----------------FUNCTIONS ON JS--------------- -->
+    <section id="whatWeDo" class="d-flex flex-wrap align-content-center justify-content-around">
+      <h3>WHAT WE DO</h3>
+      <div class="whatDo">
+        <img class="hide-img lazy" data-src="./assets/services_icons/design_icon.png">
+        <p>DESIGN</p>
+        <div class="text">
+          <p class="p">Our design practice offers a full range of services including brand strategy, interaction and visual design
+          and user experience testing.Throughout your project, our designers create and implement visual design</p>
+        </div>
+      </div>
+
+      <!-----------------------------WHAT WE DO WITH FUNCTIONS ON JS----------------- -->
+      <div class="whatDo">
+        <img data-src="./assets/services_icons/dev_icon.png" alt="Development" class="hide-img lazy" lazyload="on">
+        <p>DEVELOPMENT</p>
+        <div class="text">
+          <p class="p">All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate
+            with your team to write and improve code on a daily basis, using proven practices such as test-driven
+          development and pair programming.</p>
+        </div>
+      </div>
+
+      <!-------------------- --------------------WHAT WE DO SECTION--------------------------------------- -->
+      <div class="whatDo">
+        <img data-src="./assets/services_icons/product_icon.png" alt="Product management" class="hide-img lazy" lazyload="on">
+        <p>PRODUCT MANAGEMENT</p>
+        <div class="text">
+          <p class="p">Planning and development is iterative. Because we are constantly coding and testing that the products we
+            build are always ready to go live.This iterative process allows for changes as a business requirements
+          evolve.</p>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------- PORTFOLIO---------------------------->
+    <section id="portfolio" class="container d-flex flex-row flex-wrap align-content-center justify-content-around " lazyload="on">
+
+      <!------------------------------ PORTFOLIO WITH IMAGES--------------------------------- -->
+      <h3>PORTFOLIO</h3>
+      <div class="up">
+
+        <div class="down">
+          <p>Create</p>
+        </div>
+        <img class="lazy" data-src="./assets/portfolio/work4.jpg" alt="work4">
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>SECURITY</p>
+        </div>
+        <img data-src="./assets/portfolio/work3.jpg" alt="work3" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>Clean <br>Slate</p>
+        </div>
+        <img data-src="./assets/portfolio/work2.jpg" alt="work2" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>News <br>Weather</p>
+        </div>
+        <img data-src="./assets/portfolio/work1.jpg" alt="work1" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>Inspirational<br>Messages</p>
+        </div>
+        <img data-src="./assets/portfolio/work5.jpg" alt="work5" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>Calculator</p>
+        </div>
+        <img data-src="./assets/portfolio/work6.jpg" alt="work6" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>Stamp</p>
+        </div>
+        <img data-src="./assets/portfolio/work7.jpg" alt="work7" lazyload="on" class="lazy">
+        
+      </div>
+      <div class="up">
+        <div class="down">
+          <p>Our <br>Restaurant</p>
+        </div>
+        <img data-src="./assets/portfolio/work8.jpg" alt="work8" lazyload="on" class="lazy">
+        
+      </div>
+    </section>
+    <!-- --------------------CONTACT INFORMATION-EMAIL(.JS)---from brackets----------------------------------------->
+    <section id="contact" class="container-fluid" class="col-12">
+      <h3 class="">CONTACT US</h3>
+      <span class="message"></span>
+      <form action="" class="" id="submission">
+        <input type="text" placeholder="First Name...">
+        <input type="text" placeholder="Second Name...">
+        <input type="email" name="" id="mail" placeholder="Email...">
+        <textarea name="" id="" cols="10" rows="5" placeholder="Your message here..."></textarea>
+        <input type="Submit"class="btn-success btn-xs">
+      </form>
+    </section>
+    <!-- --------------------------------SOCIAL MEDIA---------------------------- -->
+    <footer>
+      <a href=""><img data-src="./assets/social_icons/you_tube.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/twitter.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/dribble.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img data-src="./assets/social_icons/facebook.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/g_plus.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img data-src="./assets/social_icons/skype.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img data-src="./assets/social_icons/stumble_upon.png" alt="" lazyload="on"></a>
+      <a href=""><img data-src="./assets/social_icons/behance.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/pinterest.png" alt="" lazyload="on" class="lazy"></a>
+      <p>DELANI STUDIO <br>JUNE 8,2019</p>
+    </footer>
+
+<!-----------add jquery links to bottom of body for page to load------>
+    <script src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.lazy.min.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+  </html>
