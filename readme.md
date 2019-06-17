@@ -1,11 +1,11 @@
-## DELANI STUDIO WEBSITE
+## MAMMAMIA-PIZZA
 
 ### Author:
 * [George Karani](https://github.com/georgekarani)
 
 
 ### Description:
-Delani studio website is a design practice website that offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout the project, the designers create and implement visual design.
+Mammamia-pizza is a design website that offers a range of services of ordering pizza online. Pizza is of various sizes(small,medium,large,extra-large),crust alternatives and various toppings(meat,veggies)
 
 ### Languages used:
 * HTML
@@ -29,17 +29,16 @@ Delani studio website is a design practice website that offers a full range of s
 
 * Once index.html is opened on browser the home page toggle-slides upwards displaying a bouncing mouse.
 
-* Second page is more ample information (about us) with services that delani studio offers.
+* Second page is order menu (order up!).
 
-* Next is undertakes in delani with "What we do" icons when clicked should toggle between the respective description of each icon
+* Order Pizza of your liking from size , meat, crust, sauce, cheese and veggies.
 
-* The portfolio page hovers with a white box that appears with the name of the project inside.
+* Click on place order (green button) to order or cancel order with cancel(red)
 
-* The Email API that tells the user through a pop up that you have received their message and also thank them for contacting you.
-
+* 
 
 ### Live to Link Delani studio to the Website:
-* [Live Link](https://georgekarani.github.io/delani-studio-website/.)
+* [MAMMA-MIA Live Link](https://georgekarani.github.io/delani-studio-website/.)
 
 * [Git hub link](https://georgekarani.github.io/delani-studio-website/.)
 
