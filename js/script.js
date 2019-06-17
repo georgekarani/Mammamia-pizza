@@ -166,7 +166,7 @@ cancelButton.addEventListener('click',
         $('input[type="checkbox"]').each(function(){
             this.checked = false;
         });
-            document.getElementById('preview').innerHTML = "";
+            document.getElementById('preview').innerHTML = "order canceled";
     });
 
 
