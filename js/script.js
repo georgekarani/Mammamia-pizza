@@ -177,12 +177,12 @@ cancelButton.addEventListener('click',
 
 //submission
  $("#submission").submit(function(event){
-    var data_1 = $("input:your email").val();
-    var data_2 = $("input:your Address").val();
-    var data_3 = $("input:your contact").val();
+    var data_1 = $("input:email").val();
+    var data_2 = $("input:Address").val();
+    var data_3 = $("input:contact").val();
 
     if(data_1 && data_2  && data_3 != ""  ){
-      $(".message").text("Thank you " + data_1 + "message received");
+      $(".message").text("Thank you " + data_1 + data_2 + data_3 + "message received");
       $(".message").removeClass("error");
       $(".message").addClass("success");
 
@@ -193,7 +193,7 @@ cancelButton.addEventListener('click',
     }
     event.preventDefault();
   });
-
+&& data_2
 
 
 
