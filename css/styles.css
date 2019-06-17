@@ -2,8 +2,9 @@
 .order-box { 
   width: 200px;
   height: auto;
-  background-color: orange;
-  border: 2px solid orange;
+ background-color: orange;
+  border: 2px solid orange; 
+  background-image: url('../assets/pizza1.jpeg')
   margin: 5px;
 }
 
@@ -14,7 +15,7 @@
     width: 200px;
   height: 250px;
   background-color: orange;
-  border: 2px solid orange;
+  border: 2px solid orange; 
   margin: 5px;
   align-content: center;
   border-radius: 4px;
@@ -74,6 +75,7 @@ h3 {
   margin:0 auto;
   float: left;
   text-align: left;
+  color: orange;
 }
 
 #btnOrder{

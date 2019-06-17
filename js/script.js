@@ -2,7 +2,7 @@
 //jQuery functions///////////////////////////////
 
 function getReceipt() {
-  var text1 = "<h3>You Ordered:</h3>";
+  var text1 = "<h3>Your Order!!:</h3>";
   var text2 = "";
   var runningTotal = 0;
   var sizeTotal = 0;
@@ -152,3 +152,33 @@ function getTotals(runningTotal,text1, text2) {
   document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>ksh"+runningTotal+".00"+"</strong></h3>"+text2;
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
