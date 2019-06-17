@@ -49,11 +49,13 @@ h1 {
   text-align: center;
   text-decoration-color: blue;
   color: blue;
+  font-family: arial;
 }
 
 h3 {
-
+  text-decoration-color: blue;
   text-transform: uppercase;
+  
 }
 
 #cart{
