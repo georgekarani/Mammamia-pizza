@@ -156,20 +156,18 @@ function getTotals(runningTotal,text1, text2) {
 // cancel button
 // When "Cancel It" button is clicked, form is reset
 
-var cancelButton = document.getElementById('cancel');
+var cancelButton = document.getElementById ('cancel');
 
-cancelButton.addEventListener('click', reset);
-
-function reset() {
-    document.getElementById('preview').innerHTML="";
-    
-    var selectionChecks = document.querySelectorAll('input[type="radio"], input[type="checkbox"]');
-    for (i=0;i<selectionChecks.length;i++)
-    if (selectionChecks[i].checked){
-        selectionChecks[i].checked = false;
-    }
-    location.reload();
-};
+cancelButton.addEventListener('click',
+    function reset() {
+        $('input[type="radio"]').each(function(){
+            this.checked = false;
+        });
+        $('input[type="checkbox"]').each(function(){
+            this.checked = false;
+        });
+            document.getElementById('preview').innerHTML = "";
+    });
 
 
 
