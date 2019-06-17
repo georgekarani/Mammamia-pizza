@@ -35,7 +35,7 @@ Mamma-mia-pizza is a design website that offers a range of services of ordering 
 
 * Click on place order (green button) to order or cancel order with cancel(red)
 
-* 
+* For delivery there is an extra ksh100 service charge. Add your location details 
 
 ### Live to Link Delani studio to the Website:
 * [MAMMA-MIA Live Link](https://georgekarani.github.io/Mammamia-pizza/)
