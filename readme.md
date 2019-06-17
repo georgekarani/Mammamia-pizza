@@ -1,11 +1,11 @@
-## MAMMAMIA-PIZZA
+## MAMMA-MIA-PIZZA
 
 ### Author:
 * [George Karani](https://github.com/georgekarani)
 
 
 ### Description:
-Mammamia-pizza is a design website that offers a range of services of ordering pizza online. Pizza is of various sizes(small,medium,large,extra-large),crust alternatives and various toppings(meat,veggies)
+Mamma-mia-pizza is a design website that offers a range of services of ordering pizza online. Pizza is of various sizes(small,medium,large,extra-large),crust alternatives and various toppings(meat,veggies)
 
 ### Languages used:
 * HTML
@@ -25,7 +25,7 @@ Mammamia-pizza is a design website that offers a range of services of ordering p
 * Open index.html on any browser
 
 ### BEHAVIOR DRIVEN DEVELOPMENT
-#### An Example of how the Delani Website works:
+#### An Example of how the Mamma-mia-pizza works:
 
 * Once index.html is opened on browser the home page toggle-slides upwards displaying a bouncing mouse.
 

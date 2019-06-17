@@ -135,6 +135,10 @@ section{
  background-image: url('../assets/pizza (1).jpg');
 }
 
+#submission{
+  background: orange;
+}
+
 footer{
    background-image: url('../assets/pizza.jpg');
 }
