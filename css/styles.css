@@ -6,7 +6,7 @@
   border: 2px solid orange; 
   background-image: url('../assets/pizza1.jpeg')
   margin: 5px;
-  animation: ease-out;
+  animation: alternate;
 }
 
 .column {
@@ -47,6 +47,8 @@
 h1 {
   text-transform: uppercase;
   text-align: center;
+  text-decoration-color: blue;
+  color: blue;
 }
 
 h3 {
