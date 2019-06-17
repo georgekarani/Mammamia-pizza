@@ -65,14 +65,14 @@ h3 {
   height:190px;
   margin:0px auto;
   float:left;
-  text-align: right;
+  text-align: center;
 }
 
 #totalPrice{
   width:190px;
   height:190px;
   margin:0 auto;
-  float:right;
+  float: left;
   text-align: left;
 }
 
