@@ -6,6 +6,7 @@
   border: 2px solid orange; 
   background-image: url('../assets/pizza1.jpeg')
   margin: 5px;
+  animation: ease-out;
 }
 
 .column {

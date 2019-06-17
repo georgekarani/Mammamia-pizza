@@ -2,7 +2,7 @@
 //jQuery functions///////////////////////////////
 
 function getReceipt() {
-  var text1 = "<h3>Your Order!!:</h3>";
+  var text1 = "<h3>Your Order:</h3>";
   var text2 = "";
   var runningTotal = 0;
   var sizeTotal = 0;
@@ -32,7 +32,7 @@ function getReceipt() {
 
 function getTotals(runningTotal,text1, text2) {
 
-// Meat!
+/// Meat!
   var meatTotal = 0;
   var selectedMeat = [];
   var i = 0;
@@ -65,7 +65,7 @@ function getTotals(runningTotal,text1, text2) {
   console.log(meatCount+" meat - 1 free meat = "+"ksh"+meatTotal+".00");
   console.log("subtotal: ksh"+runningTotal+".00");
 
-// Cheese!
+/// Cheese!
   var cheeseTotal = 0;
   var cheeseArray = document.getElementsByClassName("cheese");
   for (var c = 0; c < cheeseArray.length; c++) {
@@ -84,7 +84,7 @@ function getTotals(runningTotal,text1, text2) {
   console.log(selectedCheese+" = ksh"+cheeseTotal+".00");
   console.log("subtotal: ksh"+runningTotal+".00");
 
-// Crust!
+/// Crust!
   var crustTotal = 0;
   var crustArray = document.getElementsByClassName("crust");
   for (var j = 0; j < crustArray.length; j++) {
