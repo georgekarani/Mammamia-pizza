@@ -55,8 +55,8 @@ function getTotals(runningTotal,text1, text2) {
     }
   }
   var meatCount = selectedMeat.length;
-  if (meatCount > 1) {
-    meatTotal = (meatCount - 1);
+  if (meatCount > 100) {
+    meatTotal = (meatCount - 100);
   } else {
     meatTotal = 0;
   }
@@ -75,7 +75,7 @@ function getTotals(runningTotal,text1, text2) {
     }
   }
   if (selectedCheese === "Extra Cheese") {
-    cheeseTotal = 3;
+    cheeseTotal = 30;
   } else {
     cheeseTotal = 0;
   }
@@ -94,7 +94,7 @@ function getTotals(runningTotal,text1, text2) {
     }
   }
   if (selectedCrust === "Cheese Stuffed Crust") {
-    crustTotal = 3;
+    crustTotal = 50;
   } else {
     crustTotal = 0;
   }
@@ -138,7 +138,7 @@ function getTotals(runningTotal,text1, text2) {
     }
   }
   var veggieCount = selectedVeggie.length;
-  if (veggieCount > 1) {
+  if (veggieCount > 10) {
     veggieTotal = (veggieCount - 1);
   } else {
     veggieTotal = 0;
