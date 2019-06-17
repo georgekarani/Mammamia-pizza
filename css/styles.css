@@ -48,14 +48,18 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   text-decoration-color: blue;
-  color: blue;
+  color: orange;
   font-family: arial;
 }
 
 h3 {
-  text-decoration-color: blue;
+  text-decoration-color: orange;
   text-transform: uppercase;
-  
+   
+}
+
+h5{
+  color: blue;
 }
 
 #cart{
@@ -142,7 +146,7 @@ section{
 }
 
 footer{
- background-image: url('../assets/pizza.jpg');
+ background-image: url('../assets/olive.jpg');
 }
 
 .button btn-danger:hover{
@@ -160,3 +164,23 @@ footer{
  border: 5px solid red;
  color: white;
 }
+
+footer{
+  padding-top: 80px;
+}
+footer img{
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+footer img:hover{
+  transform: scale(0.8);
+  padding: 3px;
+  margin: 3px;
+  background: orange;
+  box-shadow: 0 0 20px orange);
+}
+@media only screen and (max-width: 600px){
+  header div{
+    padding-top: 30vw;
+  }  
+
