@@ -115,6 +115,7 @@ header div h1{
   border-radius: 30px;
   box-shadow: 0 0 20px #000;
   animation: bounce 0.7s linear infinite;
+  position: center;
 }
 .mouse:hover{
   animation-play-state: paused;
@@ -132,4 +133,24 @@ header div h1{
 
 section{
  background-image: url('../assets/pizza (1).jpg');
+}
+
+footer{
+   background-image: url('../assets/pizza.jpg');
+}
+
+.button btn-danger:hover{
+  background-color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 5px solid red;
+  color: white;
+}
+
+#btnOrder: hover{
+   background-color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 5px solid red;
+  color: white;
 }

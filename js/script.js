@@ -1,6 +1,7 @@
 
-//jQuery functions///////////////////////////////
+//jQuery functions and lazy load///////////////////////////////
 
+// define variables/////
 function getReceipt() {
   var text1 = "<h3>Your Order:</h3>";
   var text2 = "";
@@ -29,8 +30,9 @@ function getReceipt() {
 
 };  
 
-
+// running total for meat + cheese + crust + sauce + veggies toppings ///
 function getTotals(runningTotal,text1, text2) {
+
 
 /// Meat!
   var meatTotal = 0;
@@ -164,6 +166,9 @@ cancelButton.addEventListener('click',
             this.checked = false;
         });
         $('input[type="checkbox"]').each(function(){
+            this.checked = false;
+        });
+         $('getReceipt').each(function(){
             this.checked = false;
         });
             document.getElementById('preview').innerHTML = "order canceled";
