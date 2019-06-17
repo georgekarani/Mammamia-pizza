@@ -2,7 +2,7 @@
 .order-box { 
   width: 200px;
   height: auto;
- background-color: orange;
+  background-color: orange;
   border: 2px solid orange; 
   background-image: url('../assets/pizza1.jpeg')
   margin: 5px;
@@ -10,10 +10,10 @@
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    width: 200px;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  width: 200px;
   height: 250px;
   background-color: orange;
   border: 2px solid orange; 
@@ -24,9 +24,9 @@
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .flex-container {
   padding: 0;
@@ -142,7 +142,7 @@ section{
 }
 
 footer{
-   background-image: url('../assets/pizza.jpg');
+ background-image: url('../assets/pizza.jpg');
 }
 
 .button btn-danger:hover{
@@ -154,9 +154,9 @@ footer{
 }
 
 #btnOrder: hover{
-   background-color: blue;
-  text-transform: uppercase;
-  text-decoration: underline;
-  border: 5px solid red;
-  color: white;
+ background-color: blue;
+ text-transform: uppercase;
+ text-decoration: underline;
+ border: 5px solid red;
+ color: white;
 }
